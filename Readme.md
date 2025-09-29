@@ -14,7 +14,6 @@ This repository contains a modular implementation of supervised text classificat
 ├── utils.py               # Utility functions for data loading and preprocessing
 ├── optuna_tuning.py       # Hyperparameter tuning with Optuna
 ├── requirements.txt       # Python dependencies
-└── README.md             # This file
 ```
 
 ## Installation
@@ -63,9 +62,6 @@ python main.py --dataset ohsumed --loss gloss --tune --optuna_trials 20
 For G-Loss, you can automatically compute sigma using different methods:
 
 ```bash
-# Using MST (Minimum Spanning Tree) method
-python main.py --dataset ohsumed --loss gloss --sigmafn mst
-
 # Using root method
 python main.py --dataset ohsumed --loss gloss --sigmafn root
 ```
@@ -153,8 +149,6 @@ Command-line argument parsing and configuration.
 ## Citation
 
 If you use this code, please cite the relevant papers for:
-- BERT: [Devlin et al., 2019]
-- Supervised Contrastive Learning: [Khosla et al., 2020]
 - Your paper (if applicable)
 
 ## License
