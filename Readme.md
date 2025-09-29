@@ -1,6 +1,6 @@
-# Graph inspired fine-tuning of Language Models
+# Graph-inspired fine-tuning of Language Models
 
-This repository contains a modular implementation of supervised text classification using BERT-based models with various loss functions including Cross-Entropy (CE), Graph-based Loss (G-Loss), and Supervised Contrastive Learning (SCL).
+This repository contains a modular implementation of supervised text classification using BERT-based models with G-Loss functions and other loss functions, including Cross-Entropy (CE), and Supervised Contrastive Learning (SCL).
 
 ## Project Structure
 
