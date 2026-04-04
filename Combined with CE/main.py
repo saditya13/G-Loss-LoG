@@ -19,7 +19,7 @@ from utils import (
     compute_sigma,
     extract_embeddings
 )
-from models import BertClassifier
+from model import BertClassifier
 from training import train_model, test_evaluate
 from optuna_tuning import run_optuna_tuning
 
