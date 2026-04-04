@@ -12,7 +12,7 @@ def parse_arguments():
     parser.add_argument('--batch_size', type=int, default=128)
     parser.add_argument('--nb_epochs', type=int, default=200)
     parser.add_argument('--bert_lr', type=float, default=None, help='BERT learning rate')
-    parser.add_argument('--dataset', default='ohsumed', 
+    parser.add_argument('--dataset', default='MR', 
                         choices=['20ng', 'R8', 'R52', 'ohsumed', 'MR', 'MR_toy', 'R8_toy', 'R52_toy', 'ohsumed_toy', '20ng_toy'])
     parser.add_argument('--bert_init', type=str, default='bert-base-uncased',
                         choices=['roberta-base', 'roberta-large', 'bert-base-uncased', 'distilbert-base-uncased'])
