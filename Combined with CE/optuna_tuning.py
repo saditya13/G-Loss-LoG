@@ -10,7 +10,7 @@ import optuna
 from optuna.trial import TrialState
 from torch.optim import Adam
 
-from models import BertClassifier
+from model import BertClassifier
 from training import train_model
 
 
