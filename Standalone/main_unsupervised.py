@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, f1_score, silhouette_score, classifi
 from transformers import AutoModel
 
 # Reuse common utilities from supervised version
-from utils import (
+from utils_unsupervised import (
     setup_logger,
     find_latest_checkpoint,
     load_data,
